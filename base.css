@@ -49,7 +49,7 @@ body,
 body * {
     font-family: var(--font);
     min-height: var(--h);
-    background: var(--background, inherit) !important;
+    background-color: var(--background, inherit) !important;
     color: var(--text-color, inherit) !important;
     border-color: var(--border-color, inherit) !important;
 }
