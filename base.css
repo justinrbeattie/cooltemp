@@ -63,6 +63,13 @@ body [pr] {
     padding-top: var(--pt, var(--p));
     padding-right: var(--pr, var(--p));
     padding-bottom: var(--pb, var(--p));
+}
+
+body [pa] > *,
+body [pt] > *,
+body [pb] > *,
+body [pl] > *,
+body [pr] > *{
     --pl:0;
     --pt:0;
     --pr:0;
@@ -78,6 +85,13 @@ body [mr] {
     margin-top: var(--mt, var(--m));
     margin-right: var(--mr, var(--m));
     margin-bottom: var(--mb, var(--m));
+}
+
+body [ma] > *,
+body [mt] > *,
+body [mb] > *,
+body [ml] > *,
+body [mr] > *{
     --ml:0;
     --mt:0;
     --mr:0;
@@ -86,6 +100,9 @@ body [mr] {
 
 body [ga] {
     grid-gap: var(--g, var(--p));
+}
+
+body [ga] > * {
     --g:0;
 }
 
