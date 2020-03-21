@@ -45,7 +45,26 @@
     --font: 'Inter,sans-serif';
 }
 body,
-body * {
+body [font],
+body [background],
+body [text-color],
+body [border-color],
+body [ga],
+body [gt],
+body [gb],
+body [gl],
+body [gr],
+body [pa],
+body [pt],
+body [pb],
+body [pl],
+body [pr],
+body [ma],
+body [mt],
+body [mb],
+body [ml],
+body [mr]
+ {
     font-family: var(--font);
     min-height: var(--h);
     grid-gap: var(--g, var(--p));
